@@ -7,37 +7,30 @@ import PageContainer from '../../components/PageContainer';
 import { defaultFadeInVariants } from '../../constants/motions';
 import basket from './basket.svg';
 
-// interface NextStage {
-//   title: string;
-//   contents: string[];
-// }
+interface NextStage {
+  title: string;
+  contents: string[];
+}
 
-// type NextStageType = NextStage;
+type NextStageType = NextStage;
 
-const NextStateContents: NextStageType[] = [
-  {
-    title: '열심히 만들어 본 그물망이야',
-    contents: ['아름다운 그물망에 너가 좋아하는 가게들을 마음껏 담아봐'],
-  },
-  {
-    title: '이 아름다운 그물망에',
-    contents: [
-      '오늘은 제주가 착한 귤을 한가득 담아줄게',
-      '제주 주변 착한 가게에서 귤에 이야기를 적어 보내왔어',
-    ],
-  },
-  {
-    title: '배고픈 너를 위한 착한 귤 이야기',
-    contents: ['한번 들어볼래?'],
-  },
-];
-
-// interface Props {
-//   currentItem: NextStateContents;
-//   currentStep: number;
-
-//   next: () => void;
-// }
+// const NextStateContents: NextStageType[] = [
+//   {
+//     title: '열심히 만들어 본 그물망이야',
+//     contents: ['아름다운 그물망에 너가 좋아하는 가게들을 마음껏 담아봐'],
+//   },
+//   {
+//     title: '이 아름다운 그물망에',
+//     contents: [
+//       '오늘은 제주가 착한 귤을 한가득 담아줄게',
+//       '제주 주변 착한 가게에서 귤에 이야기를 적어 보내왔어',
+//     ],
+//   },
+//   {
+//     title: '배고픈 너를 위한 착한 귤 이야기',
+//     contents: ['한번 들어볼래?'],
+//   },
+// ];
 
 function StoryPage() {
   return (
